@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  background: f4f4f4;
+  background: #f4f4f4;
 }
 
 /* use "." to connect the HTML class to CSS */
@@ -9,12 +9,13 @@ body {
   margin: 6px;
   padding: 12px 18px;
   font-size: 40px;
-  color: blue;
+  background-color: blue;
+  color: white;
 }
 
 /* use "#" to connect HTML id to CSS*/
 #score{
-  font-size: 60pxl;
+  font-size: 60px;
 }
 
 
