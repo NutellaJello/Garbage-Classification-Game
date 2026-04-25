@@ -2,18 +2,32 @@
 <html>
 <head>
   <title>Garbage Classification Game</title>
+  <link rel = "styleshet" href ="style.css"> 
+  <!--link connects HTML to CSS-->
 </head>
 <body>
-  <h1>Welcome to My Website!</h1>
-  <p>Score: </p>
+  <h1>Garbage Classificationim sti</h1>
+  <p id = 'score'>Score: </p>
+  <!--id is an unique ID css can specifically connect to the thing in html-->
 
-  <button> Cardboard </button>
-  <button> Miscellaneous </button>
-  <button> Organic </button>
-  <button> Paper </button>
-  <button> Glass </button>
-  <button> Metal </button>
-  <button> Plastic </button>
+  <div class = "game-box">
+    <!--div is used to group things together-->
+    <!-- class is similar to HTML but will be applied to everything-->
+    
+    <img id = "garbage-img" src ='' alt = "garbage image">
+    <!--img displays and image. src is the file path, alt is backup if image doesnt load-->
+
+    <div class = "buttons">
+       <!-- everything here is in the buttons class. CSS tells all buttons to become white-->
+      <button> Cardboard </button>
+      <button> Miscellaneous </button>
+      <button> Organic </button>
+      <button> Paper </button>
+      <button> Glass </button>
+      <button> Metal </button>
+      <button> Plastic </button>
+    </div>
+  </div>
   
 </body>
 </html>
