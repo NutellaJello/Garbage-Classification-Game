@@ -19,8 +19,8 @@ body {
 }
 
 #garbage-img {
-  max-width: 400px;
-  max-height: 300px;
+  max-width: 2000px;
+  max-height: 1800px;
   display: block;
   margin: 20px auto;
 }
