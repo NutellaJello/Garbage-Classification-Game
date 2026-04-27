@@ -1,7 +1,8 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  background: #f4f4f4;
+  background: #6FB053; 
+  /*#f4f4f4*/
 }
 
 /* use "." to connect the HTML class to CSS */
@@ -25,4 +26,7 @@ body {
   margin: 20px auto;
 }
 
+#testing{
+  font-size: 30px;
+}
 
