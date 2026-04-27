@@ -1,11 +1,10 @@
 const images = [
-  { src: "images/plastic1.jpg", label: "Plastic" },
-  { src: "images/plastic2.jpg", label: "Plastic" }, 
-  { src: "images/plastic3.jpg", label: "Plastic" },
-  { src: "images/plastic4.jpg", label: "Plastic" },
-  { src: "images/plastic5.jpg", label: "Paper" },
-  { src: "images/plastic6.jpg", label: "Plastic" },
-  { src: "images/plastic7.jpg", label: "Plastic" }
+  { src: "images/Image1.jpg", label: "Plastic" },
+  { src: "images/Image2.jpg", label: "Plastic" }, 
+  { src: "images/Image3.jpg", label: "Plastic" },
+  { src: "images/Image4.jpg", label: "Plastic" },
+  { src: "images/Image5.jpg", label: "Paper" },
+  { src: "images/Image6.jpg", label: "Plastic" }
 ];
 
 let currentImage = null;
