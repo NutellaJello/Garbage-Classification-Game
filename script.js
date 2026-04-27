@@ -16,7 +16,7 @@ function loadRandomImage(){
   const randomIndex = Math.floor(Math.random() * images.length);
   currentImage = images[randomIndex];
   // connects the HTML id in index.html and changes the image with randomized one
-  document.getElementByID("garbage-img").src = currentImage.src;
+  document.getElementById("garbage-img").src = currentImage.src;
   
 }
 function checkAnswer(userAnswer){
@@ -24,13 +24,13 @@ function checkAnswer(userAnswer){
     
   if (userAnswer == currentImage.label){
     score++;
-    document.getElementByID("testing").textContent = "Correct!";
+    document.getElementById("testing").textContent = "Correct!";
   }
   else{
-    document.getElementByID("testing").textContent = "Incorrect! Correct answer: " + currentImage.label;
+    document.getElementById("testing").textContent = "Incorrect! Correct answer: " + currentImage.label;
   }
   
-  document.getElementByID("score").textContent = "Score: " + score + "/" + total;
+  document.getElementById("score").textContent = "Score: " + score + "/" + total;
   
   loadRandomImage();
 }
